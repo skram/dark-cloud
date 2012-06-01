@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		788BC40B15711F2E00910CED /* libDarkCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 788BC40615711F2E00910CED /* libDarkCloud.a */; };
+		788F71A015710BC900A86BA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788F719F15710BC900A86BA0 /* UIKit.framework */; };
+		788F71A215710BC900A86BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788F71A115710BC900A86BA0 /* Foundation.framework */; };
+		788F71A415710BC900A86BA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788F71A315710BC900A86BA0 /* CoreGraphics.framework */; };
+		788F71AA15710BC900A86BA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 788F71A815710BC900A86BA0 /* InfoPlist.strings */; };
+		788F71AC15710BC900A86BA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 788F71AB15710BC900A86BA0 /* main.m */; };
+		788F71B015710BC900A86BA0 /* OMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 788F71AF15710BC900A86BA0 /* OMAppDelegate.m */; };
+		788F71B315710BC900A86BA0 /* OMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788F71B215710BC900A86BA0 /* OMViewController.m */; };
+		788F71B615710BC900A86BA0 /* OMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788F71B415710BC900A86BA0 /* OMViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		788BC40615711F2E00910CED /* libDarkCloud.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDarkCloud.a; sourceTree = "<group>"; };
+		788BC40A15711F2E00910CED /* DarkCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkCloud.h; sourceTree = "<group>"; };
+		788F719B15710BC900A86BA0 /* DarkCloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkCloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		788F719F15710BC900A86BA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		788F71A115710BC900A86BA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		788F71A315710BC900A86BA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		788F71A715710BC900A86BA0 /* DarkCloudTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DarkCloudTest-Info.plist"; sourceTree = "<group>"; };
+		788F71A915710BC900A86BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		788F71AB15710BC900A86BA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		788F71AD15710BC900A86BA0 /* DarkCloudTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DarkCloudTest-Prefix.pch"; sourceTree = "<group>"; };
+		788F71AE15710BC900A86BA0 /* OMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMAppDelegate.h; sourceTree = "<group>"; };
+		788F71AF15710BC900A86BA0 /* OMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMAppDelegate.m; sourceTree = "<group>"; };
+		788F71B115710BC900A86BA0 /* OMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMViewController.h; sourceTree = "<group>"; };
+		788F71B215710BC900A86BA0 /* OMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMViewController.m; sourceTree = "<group>"; };
+		788F71B515710BC900A86BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OMViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		788F719815710BC900A86BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788F71A015710BC900A86BA0 /* UIKit.framework in Frameworks */,
+				788F71A215710BC900A86BA0 /* Foundation.framework in Frameworks */,
+				788F71A415710BC900A86BA0 /* CoreGraphics.framework in Frameworks */,
+				788BC40B15711F2E00910CED /* libDarkCloud.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		788BC40715711F2E00910CED /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				788BC40815711F2E00910CED /* local */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		788BC40815711F2E00910CED /* local */ = {
+			isa = PBXGroup;
+			children = (
+				788BC40915711F2E00910CED /* include */,
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		788BC40915711F2E00910CED /* include */ = {
+			isa = PBXGroup;
+			children = (
+				788BC40A15711F2E00910CED /* DarkCloud.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		788F719015710BC900A86BA0 = {
+			isa = PBXGroup;
+			children = (
+				788BC40615711F2E00910CED /* libDarkCloud.a */,
+				788BC40715711F2E00910CED /* usr */,
+				788F71A515710BC900A86BA0 /* DarkCloudTest */,
+				788F719E15710BC900A86BA0 /* Frameworks */,
+				788F719C15710BC900A86BA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		788F719C15710BC900A86BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				788F719B15710BC900A86BA0 /* DarkCloudTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		788F719E15710BC900A86BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				788F719F15710BC900A86BA0 /* UIKit.framework */,
+				788F71A115710BC900A86BA0 /* Foundation.framework */,
+				788F71A315710BC900A86BA0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		788F71A515710BC900A86BA0 /* DarkCloudTest */ = {
+			isa = PBXGroup;
+			children = (
+				788F71AE15710BC900A86BA0 /* OMAppDelegate.h */,
+				788F71AF15710BC900A86BA0 /* OMAppDelegate.m */,
+				788F71B115710BC900A86BA0 /* OMViewController.h */,
+				788F71B215710BC900A86BA0 /* OMViewController.m */,
+				788F71B415710BC900A86BA0 /* OMViewController.xib */,
+				788F71A615710BC900A86BA0 /* Supporting Files */,
+			);
+			path = DarkCloudTest;
+			sourceTree = "<group>";
+		};
+		788F71A615710BC900A86BA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788F71A715710BC900A86BA0 /* DarkCloudTest-Info.plist */,
+				788F71A815710BC900A86BA0 /* InfoPlist.strings */,
+				788F71AB15710BC900A86BA0 /* main.m */,
+				788F71AD15710BC900A86BA0 /* DarkCloudTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		788F719A15710BC900A86BA0 /* DarkCloudTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788F71B915710BC900A86BA0 /* Build configuration list for PBXNativeTarget "DarkCloudTest" */;
+			buildPhases = (
+				788F719715710BC900A86BA0 /* Sources */,
+				788F719815710BC900A86BA0 /* Frameworks */,
+				788F719915710BC900A86BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkCloudTest;
+			productName = DarkCloudTest;
+			productReference = 788F719B15710BC900A86BA0 /* DarkCloudTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		788F719215710BC900A86BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OM;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "TapFactory LLC";
+			};
+			buildConfigurationList = 788F719515710BC900A86BA0 /* Build configuration list for PBXProject "DarkCloudTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 788F719015710BC900A86BA0;
+			productRefGroup = 788F719C15710BC900A86BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788F719A15710BC900A86BA0 /* DarkCloudTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		788F719915710BC900A86BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788F71AA15710BC900A86BA0 /* InfoPlist.strings in Resources */,
+				788F71B615710BC900A86BA0 /* OMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788F719715710BC900A86BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788F71AC15710BC900A86BA0 /* main.m in Sources */,
+				788F71B015710BC900A86BA0 /* OMAppDelegate.m in Sources */,
+				788F71B315710BC900A86BA0 /* OMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		788F71A815710BC900A86BA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788F71A915710BC900A86BA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		788F71B415710BC900A86BA0 /* OMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788F71B515710BC900A86BA0 /* en */,
+			);
+			name = OMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		788F71B715710BC900A86BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		788F71B815710BC900A86BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		788F71BA15710BC900A86BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DarkCloudTest/DarkCloudTest-Prefix.pch";
+				INFOPLIST_FILE = "DarkCloudTest/DarkCloudTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/DarkCloud-hbfbbkbvdckuxrejgspxkeoiqlvb/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		788F71BB15710BC900A86BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DarkCloudTest/DarkCloudTest-Prefix.pch";
+				INFOPLIST_FILE = "DarkCloudTest/DarkCloudTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/DarkCloud-hbfbbkbvdckuxrejgspxkeoiqlvb/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		788F719515710BC900A86BA0 /* Build configuration list for PBXProject "DarkCloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788F71B715710BC900A86BA0 /* Debug */,
+				788F71B815710BC900A86BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788F71B915710BC900A86BA0 /* Build configuration list for PBXNativeTarget "DarkCloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788F71BA15710BC900A86BA0 /* Debug */,
+				788F71BB15710BC900A86BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 788F719215710BC900A86BA0 /* Project object */;
+}

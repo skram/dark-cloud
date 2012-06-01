@@ -13,3 +13,6 @@ build/*
 xcuserdata
 profile
 *.moved-aside
+
+usr/.DS_Store
+usr/local/.DS_Store
