@@ -28,14 +28,12 @@
     // Override point for customization after application launch.
     
     
-    //223df37b55363eda88e3000baa4a592c
     DarkCloud *cloud = [[[DarkCloud alloc] initWithAPIKey:@"API_KEY"] autorelease];
     cloud.delegate = self;
         
     //Example full forecast. set YES for brief.
     [cloud getHourlyForcastForLatitude:40.673175 
                              longitude:-74.22492 brief:NO];
-    
 
     // Example Multiple Points and Times
     /*
