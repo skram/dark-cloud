@@ -9,12 +9,13 @@ Installtion
 
 1.) Add libDarkCloud.a library and /usr Directory into your project.
 
-2.) Edit DarkCloud.h to include your API_KEY in provided define.
-
-3.) Import DarkCloud.h (`#import "DarkCloud.h"`) , and make your class conform to `DarkCloudDelegate` protocol.
+2.) Import DarkCloud.h (`#import "DarkCloud.h"`) , and make your class conform to `DarkCloudDelegate` protocol.
 
 Methods
 ==========
+    //Initializer to DarkCloud Library.
+    -(id)initWithAPIKey:(NSString*)api_key
+    
     //Makes hourly forecast request, with option for brief or full.
     -(void)getHourlyForcastForLatitude:(double)lat 
                          longitude:(double)lon brief:(BOOL)yesNo;
@@ -38,14 +39,14 @@ Usage
 ==========
     
     //Full hourly forecast request.
-    DarkCloud *cloud = [[[DarkCloud alloc] init] autorelease];
+    DarkCloud *cloud = [[[DarkCloud alloc] initinitWithAPIKey:@"API_KEY"] autorelease];
     cloud.delegate = self;
     [cloud getHourlyForcastForLatitude:40.673175 
                              longitude:-74.22492 brief:NO];
     ============================================================
     
     //Example Multiple Points and Times
-    DarkCloud *cloud = [[[DarkCloud alloc] init] autorelease];
+    DarkCloud *cloud = [[[DarkCloud alloc] initinitWithAPIKey:@"API_KEY"] autorelease];
     cloud.delegate = self;
     
     NSMutableDictionary *point1 = [[NSMutableDictionary alloc] init];
