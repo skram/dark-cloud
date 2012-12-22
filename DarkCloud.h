@@ -2,13 +2,12 @@
 //  DarkCloud.h
 //  DarkCloud
 //
-//  Created by Mark on 5/26/12.
-//  Copyright (c) 2012 skram devs LLC. All rights reserved.
+//  Created by Mark Peterson on 5/26/12.
+//  Copyright (c) 2012 Mark Peterson. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-#define API_KEY @"API_KEY"
 
 @protocol DarkCloudDelegate <NSObject>
 
@@ -25,9 +24,12 @@
     id<DarkCloudDelegate>delegate;
 }
 
+//Initialize with DarkSky API Key: Found here; https://developer.darkskyapp.com/
+-(id)initWithAPIKey:(NSString*)api_key;
+
 //Helper Class method to create timestamp.
 + (NSTimeInterval)getGMTFormatDate:(NSDate*)date;
- 
+
 
 //Makes hourly forecast request, with option for brief or full.
 -(void)getHourlyForcastForLatitude:(double)lat 

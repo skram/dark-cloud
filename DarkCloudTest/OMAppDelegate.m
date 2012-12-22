@@ -28,9 +28,8 @@
     // Override point for customization after application launch.
     
     
-    
-    DarkCloud *cloud = [[[DarkCloud alloc] init] 
-                        autorelease];
+    //223df37b55363eda88e3000baa4a592c
+    DarkCloud *cloud = [[[DarkCloud alloc] initWithAPIKey:@"API_KEY"] autorelease];
     cloud.delegate = self;
         
     //Example full forecast. set YES for brief.
@@ -70,7 +69,7 @@
     return YES;
 }
 
-
+#pragma mark DarkCloud Delegate Methods
 -(void)briefForecastReceived:(NSDictionary *)forecast {
     
     NSLog(@"%@",forecast);
@@ -97,7 +96,7 @@
     
     NSLog(@"Error occured: %@", [error description]);
 }
-
+#pragma mark -
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

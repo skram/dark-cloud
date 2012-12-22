@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		788BC40B15711F2E00910CED /* libDarkCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 788BC40615711F2E00910CED /* libDarkCloud.a */; };
 		788F71A015710BC900A86BA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788F719F15710BC900A86BA0 /* UIKit.framework */; };
 		788F71A215710BC900A86BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788F71A115710BC900A86BA0 /* Foundation.framework */; };
 		788F71A415710BC900A86BA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788F71A315710BC900A86BA0 /* CoreGraphics.framework */; };
@@ -16,11 +15,10 @@
 		788F71B015710BC900A86BA0 /* OMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 788F71AF15710BC900A86BA0 /* OMAppDelegate.m */; };
 		788F71B315710BC900A86BA0 /* OMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788F71B215710BC900A86BA0 /* OMViewController.m */; };
 		788F71B615710BC900A86BA0 /* OMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788F71B415710BC900A86BA0 /* OMViewController.xib */; };
+		78E1D9631686308E0086F35C /* libDarkCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E1D9611686308E0086F35C /* libDarkCloud.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		788BC40615711F2E00910CED /* libDarkCloud.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDarkCloud.a; sourceTree = "<group>"; };
-		788BC40A15711F2E00910CED /* DarkCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkCloud.h; sourceTree = "<group>"; };
 		788F719B15710BC900A86BA0 /* DarkCloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkCloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788F719F15710BC900A86BA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		788F71A115710BC900A86BA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,6 +32,8 @@
 		788F71B115710BC900A86BA0 /* OMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMViewController.h; sourceTree = "<group>"; };
 		788F71B215710BC900A86BA0 /* OMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMViewController.m; sourceTree = "<group>"; };
 		788F71B515710BC900A86BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OMViewController.xib; sourceTree = "<group>"; };
+		78E1D9611686308E0086F35C /* libDarkCloud.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDarkCloud.a; sourceTree = "<group>"; };
+		78E1D9621686308E0086F35C /* DarkCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkCloud.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,42 +44,17 @@
 				788F71A015710BC900A86BA0 /* UIKit.framework in Frameworks */,
 				788F71A215710BC900A86BA0 /* Foundation.framework in Frameworks */,
 				788F71A415710BC900A86BA0 /* CoreGraphics.framework in Frameworks */,
-				788BC40B15711F2E00910CED /* libDarkCloud.a in Frameworks */,
+				78E1D9631686308E0086F35C /* libDarkCloud.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		788BC40715711F2E00910CED /* usr */ = {
-			isa = PBXGroup;
-			children = (
-				788BC40815711F2E00910CED /* local */,
-			);
-			path = usr;
-			sourceTree = "<group>";
-		};
-		788BC40815711F2E00910CED /* local */ = {
-			isa = PBXGroup;
-			children = (
-				788BC40915711F2E00910CED /* include */,
-			);
-			path = local;
-			sourceTree = "<group>";
-		};
-		788BC40915711F2E00910CED /* include */ = {
-			isa = PBXGroup;
-			children = (
-				788BC40A15711F2E00910CED /* DarkCloud.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
 		788F719015710BC900A86BA0 = {
 			isa = PBXGroup;
 			children = (
-				788BC40615711F2E00910CED /* libDarkCloud.a */,
-				788BC40715711F2E00910CED /* usr */,
+				78E1D95D16862EDC0086F35C /* dark-cloud */,
 				788F71A515710BC900A86BA0 /* DarkCloudTest */,
 				788F719E15710BC900A86BA0 /* Frameworks */,
 				788F719C15710BC900A86BA0 /* Products */,
@@ -126,6 +101,15 @@
 				788F71AD15710BC900A86BA0 /* DarkCloudTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78E1D95D16862EDC0086F35C /* dark-cloud */ = {
+			isa = PBXGroup;
+			children = (
+				78E1D9611686308E0086F35C /* libDarkCloud.a */,
+				78E1D9621686308E0086F35C /* DarkCloud.h */,
+			);
+			name = "dark-cloud";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
