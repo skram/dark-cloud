@@ -4,7 +4,7 @@ dark-cloud
 iOS Static Library w/ Example project for DarkSky API. (https://developer.darkskyapp.com)
 
 
-Installtion
+Installation
 ==========
 
 1.) Add libDarkCloud.a library and /usr Directory into your project.
